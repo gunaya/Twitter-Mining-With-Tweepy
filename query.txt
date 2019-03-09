@@ -1,0 +1,12 @@
+#dengue,#demamberdarah
+#chikungunya
+#hiv,#aids,#hivaids
+#polio
+#mers
+#malaria
+#ebola
+#measles
+#yellowfever
+#rabies
+#zika,#zikavirus
+#tuberculosis

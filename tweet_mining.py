@@ -25,6 +25,7 @@ def twitter_auth():
     print('auth success')
     return api
 
+#limit handler
 def limit_handled(cursor):
     backoff_counter = 1
     while True:

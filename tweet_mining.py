@@ -1,4 +1,5 @@
 import pandas
+import json
 import tweepy
 import jsonpickle
 import time
@@ -6,12 +7,12 @@ from pymongo import MongoClient
 import datetime
 
 #consumer
-CONSUMER_KEY = '******************************'
-CONSUMER_SECRET = '**************************************************'
+CONSUMER_KEY = 'HxVfkRtGy4EFwWAVAz1VbnDvp'
+CONSUMER_SECRET = 'r5Bg9JESYAoeLn4dkrLTAFY6CxxcM2MUdGUVRswkv8vQZ3n1bw'
 
 #token
-ACCESS_TOKEN = '**************************************************'
-ACCESS_SECRET = '*********************************************'
+ACCESS_TOKEN = '1331219286-piOcHazoDlHmgV3aial3AM87dAYtUat1hvHRnY9'
+ACCESS_SECRET = 'EaYxOc7loNyaxyOQHna7mX1qiSCPXF44b6eUrRiWgY5YI'
 
 #host mongo
 MONGO_HOST = 'mongodb://localhost/'
@@ -25,7 +26,6 @@ def twitter_auth():
     print('auth success')
     return api
 
-#limit handler
 def limit_handled(cursor):
     backoff_counter = 1
     while True:
@@ -45,7 +45,7 @@ def get_tweet(db, collection_name, filepath, api, query, max_tweets):
     tweetCount = 0
 
     with open("./json/"+filepath, 'a+') as f:
-        for tweet in limit_handled(tweepy.Cursor(api.search, q=query, since="2019-2-20", until="2019-2-28", tweet_mode='extended').items(max_tweets)):
+        for tweet in limit_handled(tweepy.Cursor(api.search, q=query, since="2019-3-21", until="2019-3-22", tweet_mode='extended').items(max_tweets)):
             if (not tweet.retweeted) and ('RT @' not in tweet.full_text):
                 f.write(jsonpickle.encode(tweet._json, unpicklable=False) + '\n')
                 #json.dump(tweet._json, f, indent=2)

@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 MONGO_HOST = 'mongodb://localhost/'
-MONGO_DB = 'db_twitter'
+MONGO_DB = 'disease'
 
 def get_json(collection_name):
     client = MongoClient(MONGO_HOST)
@@ -22,7 +22,7 @@ def main(collection_name):
 
 
     for i in data_details:
-        print(i["text"])
+        print(i)
 
 if __name__ == "__main__":
-    main("#zika")
+    main("hiv")

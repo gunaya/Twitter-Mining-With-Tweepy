@@ -1,10 +1,12 @@
 import pandas
 import json
-import tweepy
 import jsonpickle
 import time
-from pymongo import MongoClient
+
 import datetime
+
+from pymongo import MongoClient
+import tweepy
 
 #consumer
 CONSUMER_KEY = 'HxVfkRtGy4EFwWAVAz1VbnDvp'
@@ -39,13 +41,11 @@ def limit_handled(cursor):
 
 #get tweet
 def get_tweet(db, collection_name, filepath, api, query, max_tweets):
-
     collection = db[collection_name]
-
     tweetCount = 0
 
     with open("./json/"+filepath, 'a+') as f:
-        for tweet in limit_handled(tweepy.Cursor(api.search, q=query, since="2019-3-27", until="2019-3-28", tweet_mode='extended').items(max_tweets)):
+        for tweet in limit_handled(tweepy.Cursor(api.search, q=query, since="2019-4-10", until="2019-4-11", tweet_mode='extended').items(max_tweets)):
             if (not tweet.retweeted) and ('RT @' not in tweet.full_text):
                 f.write(jsonpickle.encode(tweet._json, unpicklable=False) + '\n')
                 #json.dump(tweet._json, f, indent=2)
@@ -67,11 +67,9 @@ def get_tweet(db, collection_name, filepath, api, query, max_tweets):
 def main():
     #call twitter_auth()
     api = twitter_auth()
-
     #connect mongodb
     client = MongoClient(MONGO_HOST)
     db = client.db_twitter
-
     #read query.txt
     file_query = open("query.txt", "r")
     for i in file_query:

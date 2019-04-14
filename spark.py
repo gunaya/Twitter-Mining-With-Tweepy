@@ -3,7 +3,7 @@ from pyspark import SparkContext, SparkConf
 
 MONGO_HOST = 'mongodb://localhost/'
 MONGO_DB = 'disease'
-
+loc = []
 
 def get_json(collection_name):
     client = MongoClient(MONGO_HOST)
@@ -17,7 +17,7 @@ def main(collection_name):
     data = get_json(collection_name)
     data_details = data.find()
     # col_name = collection_name.replace("#",'')
-    loc = []
+
     for i in data_details:
         if i['location'] != '':
             loc.append(i['location'])
@@ -43,3 +43,4 @@ def main(collection_name):
 
 if __name__ == "__main__":
     main("chikungunya")
+

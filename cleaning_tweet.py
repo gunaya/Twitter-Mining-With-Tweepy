@@ -29,15 +29,12 @@ def main(collection_name):
         locations = i['location']
         locations = locations.split(',')
 
-        print(tweet_count)
-
         for x in range(len(locations)):
             locations[x] = locations[x].replace(' ', '')
             locations[x] = location_filter(locations[x])
             if locations[x] == '':
                 locations[x] = 'none'
 
-        print(locations)
         new_location = 'none'
         for x in range(len(locations)):
             if locations[x] != 'none':
@@ -76,5 +73,8 @@ def location_filter(kota):
     return country
 
 if __name__ == "__main__":
-    main("yellowfever")
+    query = ['chikungunya', 'dengue', 'ebola', 'hiv', 'malaria', 'measles', 'mers', 'polio', 'rabies', 'tuberculosis', 'yellowfever', 'zika']
+
+    for q in query:
+        main(q)
     # location_filter()

@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/spark.py" line="25" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="61b903de-cc58-46ef-b45d-c7af61f40c04" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/count.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark.py" beforeDir="false" afterPath="$PROJECT_DIR$/spark.py" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cleaning_tweet.py" beforeDir="false" afterPath="$PROJECT_DIR$/cleaning_tweet.py" afterDir="false" />
+>>>>>>> 06f2a58012e561d5b51d33a0db432b539527e364
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +17,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FUSProjectUsageTrigger">
     <session id="-635365902">
       <usages-collector id="statistics.lifecycle.project">
@@ -57,13 +60,20 @@
       </usages-collector>
     </session>
   </component>
+=======
+>>>>>>> 06f2a58012e561d5b51d33a0db432b539527e364
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tweet_mining.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="396">
               <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+=======
+            <state relative-caret-position="212">
+              <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="87" selection-end-column="65" />
+>>>>>>> 06f2a58012e561d5b51d33a0db432b539527e364
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -74,6 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cleaning_tweet.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="374">
               <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
             </state>
@@ -94,11 +105,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
               <caret line="25" column="14" lean-forward="true" selection-end-line="46" />
+=======
+            <state relative-caret-position="-524">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+>>>>>>> 06f2a58012e561d5b51d33a0db432b539527e364
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/../python-spark-tutorial-master/python-spark-tutorial-master/rdd/collect/CollectExample.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -121,18 +140,33 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1108206">
               <caret line="50373" column="16" selection-start-line="50373" selection-start-column="16" selection-end-line="50373" selection-end-column="16" />
+=======
+        <entry file="file://$PROJECT_DIR$/query.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="13" selection-end-line="11" selection-end-column="13" />
+>>>>>>> 06f2a58012e561d5b51d33a0db432b539527e364
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>indonesia</find>
+      <find>washington</find>
+      <find>Washington</find>
+      <find>united king</find>
+      <find>london</find>
+      <find>nevada</find>
+      <find>paris</find>
+      <find>nigeria</find>
+      <find>queens</find>
+      <find>united s</find>
+      <find>england</find>
+      <find>united</find>
+    </findStrings>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -148,17 +182,21 @@
       <list>
         <option value="$PROJECT_DIR$/testing.py" />
         <option value="$PROJECT_DIR$/tweet_mining.py" />
+        <option value="$PROJECT_DIR$/countries.json" />
         <option value="$PROJECT_DIR$/cleaning_tweet.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/../python-spark-tutorial-master/python-spark-tutorial-master/rdd/count/CountExample.py" />
         <option value="$PROJECT_DIR$/spark.py" />
         <option value="$PROJECT_DIR$/count.py" />
+=======
+>>>>>>> 06f2a58012e561d5b51d33a0db432b539527e364
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
+    <option name="x" value="-7" />
     <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -171,12 +209,7 @@
           <expand>
             <path>
               <item name="Twitter-Mining-With-Tweepy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Twitter-Mining-With-Tweepy" type="47feb1d3:ProjectViewModuleNode" />
-            </path>
-            <path>
-              <item name="Twitter-Mining-With-Tweepy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Twitter-Mining-With-Tweepy" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="Twitter-Mining-With-Tweepy" type="462c0819:PsiDirectoryNode" />
+              <item name="CleaningTBD" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,8 +218,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MachineLeaning/PreTrained/tomatoes" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CleaningTBD/CleaningTBD" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+>>>>>>> 06f2a58012e561d5b51d33a0db432b539527e364
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -200,28 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.spark">
-    <configuration name="CountExample" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Twitter-Mining-With-Tweepy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python-spark-tutorial-master/python-spark-tutorial-master/rdd/count" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python-spark-tutorial-master/python-spark-tutorial-master/rdd/count/CountExample.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.cleaning_tweet">
     <configuration name="cleaning_tweet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Twitter-Mining-With-Tweepy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,6 +260,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="count" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Twitter-Mining-With-Tweepy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,6 +304,9 @@
       <method v="2" />
     </configuration>
     <configuration name="testAri" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="tweet_mining" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 06f2a58012e561d5b51d33a0db432b539527e364
       <module name="Twitter-Mining-With-Tweepy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -306,6 +327,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <list>
       <item itemvalue="Python.cleaning_tweet" />
       <item itemvalue="Python.spark" />
@@ -319,6 +341,10 @@
         <item itemvalue="Python.count" />
         <item itemvalue="Python.CountExample" />
         <item itemvalue="Python.testAri" />
+=======
+    <recent_temporary>
+      <list>
+>>>>>>> 06f2a58012e561d5b51d33a0db432b539527e364
         <item itemvalue="Python.cleaning_tweet" />
       </list>
     </recent_temporary>
@@ -337,15 +363,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19494204" />
+=======
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.122023806" />
+>>>>>>> 06f2a58012e561d5b51d33a0db432b539527e364
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.4064449" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.9698545" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5546219" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+>>>>>>> 06f2a58012e561d5b51d33a0db432b539527e364
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -357,9 +394,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/json/#dengue_2019-03-10_17-36-16-106426.json">
@@ -383,32 +417,108 @@
         <state relative-caret-position="-17502" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Visualisasi-Big-Data/testAri.py">
+    <entry file="file://$PROJECT_DIR$/../CleaningTBD/CleaningTBD/tryCleaningcarakter.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="836">
           <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="40" />
         </state>
+=======
+        <state relative-caret-position="-964" />
+>>>>>>> 06f2a58012e561d5b51d33a0db432b539527e364
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../python-spark-tutorial-master/python-spark-tutorial-master/rdd/count/CountExample.py">
+    <entry file="file://$PROJECT_DIR$/../CleaningTBD/CleaningTBD/data_nama_kota/readDataKOta.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="14" selection-end-column="44" />
+        <state relative-caret-position="161">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/query.txt">
+    <entry file="file://$PROJECT_DIR$/countries.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        <state relative-caret-position="167">
+          <caret line="60209" column="17" lean-forward="true" selection-start-line="60209" selection-start-column="17" selection-end-line="60209" selection-end-column="17" />
+          <folding>
+            <element signature="e#155#254#0" />
+            <element signature="e#269#768#0" />
+            <element signature="e#783#978#0" />
+            <element signature="e#992#1306#0" />
+            <element signature="e#1333#1439#0" />
+            <element signature="e#1456#12752#0" />
+            <element signature="e#12767#12988#0" />
+            <element signature="e#13001#13197#0" />
+            <element signature="e#13214#47601#0" />
+            <element signature="e#47616#74025#0" />
+            <element signature="e#74043#74164#0" />
+            <element signature="e#74179#74316#0" />
+            <element signature="e#74331#74615#0" />
+            <element signature="e#74633#74892#0" />
+            <element signature="e#74908#75304#0" />
+            <element signature="e#75319#75664#0" />
+            <element signature="e#75679#94696#0" />
+            <element signature="e#94710#94860#0" />
+            <element signature="e#94875#95138#0" />
+            <element signature="e#95168#95782#0" />
+            <element signature="e#95798#95879#0" />
+            <element signature="e#95893#133022#0" />
+            <element signature="e#133036#133185#0" />
+            <element signature="e#133201#136792#0" />
+            <element signature="e#136808#137106#0" />
+            <element signature="e#137122#137250#0" />
+            <element signature="e#175625#175751#0" />
+            <element signature="e#175764#177767#0" />
+            <element signature="e#177780#204913#0" />
+            <element signature="e#204929#206761#0" />
+            <element signature="e#206774#206852#0" />
+            <element signature="e#206870#207993#0" />
+            <element signature="e#208008#210285#0" />
+            <element signature="e#210297#210464#0" />
+            <element signature="e#210478#210890#0" />
+            <element signature="e#210912#227217#0" />
+            <element signature="e#227232#236228#0" />
+            <element signature="e#236254#236714#0" />
+            <element signature="e#236729#237915#0" />
+            <element signature="e#237928#238563#0" />
+            <element signature="e#238582#239149#0" />
+            <element signature="e#239164#240100#0" />
+            <element signature="e#240121#240253#0" />
+            <element signature="e#240268#247756#0" />
+            <element signature="e#247770#494913#0" />
+            <element signature="e#1049531#1049695#0" />
+          </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/../CleaningTBD/CleaningTBD/data_json_terupdate_versi2/countNegara.py" />
     <entry file="file://$PROJECT_DIR$/tweet_mining.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+=======
+    <entry file="file://$PROJECT_DIR$/../CleaningTBD/CleaningTBD/try16nokia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweet_mining.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="87" selection-end-column="65" />
+>>>>>>> 06f2a58012e561d5b51d33a0db432b539527e364
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -417,6 +527,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cleaning_tweet.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="374">
           <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
@@ -454,6 +565,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="25" column="14" lean-forward="true" selection-end-line="46" />
+=======
+        <state relative-caret-position="-524">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+>>>>>>> 06f2a58012e561d5b51d33a0db432b539527e364
         </state>
       </provider>
     </entry>

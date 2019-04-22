@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../CleaningTBD/CleaningTBD/.idea/CleaningTBD.iml" filepath="$PROJECT_DIR$/../CleaningTBD/CleaningTBD/.idea/CleaningTBD.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Twitter-Mining-With-Tweepy.iml" filepath="$PROJECT_DIR$/.idea/Twitter-Mining-With-Tweepy.iml" />
     </modules>
   </component>

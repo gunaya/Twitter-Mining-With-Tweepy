@@ -116,18 +116,3 @@ if __name__ == "__main__":
     # location_filter()
 
     main('yellowfever')
-
-    # with open('countries.json') as f:
-    #     data = json.load(f)
-    # kota = 'London'
-    # for countries in data:
-    #     if kota.lower() == countries.lower():
-    #         country = countries
-    #     else:
-    #         for x in data[countries]:
-    #             if kota.lower() == x.lower():
-    #                 FLAG = 1;
-    #                 print('found')
-    #                 country = countries
-    #                 print(countries)
-    #                 break

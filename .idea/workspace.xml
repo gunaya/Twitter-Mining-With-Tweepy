@@ -4,6 +4,8 @@
     <list default="true" id="61b903de-cc58-46ef-b45d-c7af61f40c04" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cleaning_tweet.py" beforeDir="false" afterPath="$PROJECT_DIR$/cleaning_tweet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countries.json" beforeDir="false" afterPath="$PROJECT_DIR$/countries.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweet_mining.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweet_mining.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tweet_mining.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="87" selection-end-column="65" />
+            <state relative-caret-position="322">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -25,13 +27,66 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cleaning_tweet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-524">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="-1035">
+              <caret line="54" column="56" lean-forward="true" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#2044#2081#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/countries.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="72034" column="19" selection-start-line="72034" selection-start-column="19" selection-end-line="72034" selection-end-column="19" />
+              <folding>
+                <element signature="e#155#254#0" />
+                <element signature="e#269#768#0" />
+                <element signature="e#783#978#0" />
+                <element signature="e#992#1306#0" />
+                <element signature="e#1333#1439#0" />
+                <element signature="e#1456#12752#0" />
+                <element signature="e#12767#12988#0" />
+                <element signature="e#13001#13197#0" />
+                <element signature="e#13214#47601#0" />
+                <element signature="e#47616#74025#0" />
+                <element signature="e#74043#74164#0" />
+                <element signature="e#74179#74316#0" />
+                <element signature="e#74331#74615#0" />
+                <element signature="e#74633#74892#0" />
+                <element signature="e#74908#75304#0" />
+                <element signature="e#75319#75664#0" />
+                <element signature="e#75679#94696#0" />
+                <element signature="e#94710#94860#0" />
+                <element signature="e#94875#95138#0" />
+                <element signature="e#95168#95782#0" />
+                <element signature="e#95798#95879#0" />
+                <element signature="e#95893#133022#0" />
+                <element signature="e#133036#133185#0" />
+                <element signature="e#133201#136792#0" />
+                <element signature="e#136808#137106#0" />
+                <element signature="e#137122#137250#0" />
+                <element signature="e#1045704#1045812#0" />
+                <element signature="e#1045827#1049476#0" />
+                <element signature="e#1049504#1049668#0" />
               </folding>
             </state>
           </provider>
@@ -41,20 +96,25 @@
         <entry file="file://$PROJECT_DIR$/query.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="11" column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>indonesia</find>
       <find>washington</find>
       <find>Washington</find>
       <find>united king</find>
-      <find>london</find>
       <find>nevada</find>
       <find>paris</find>
       <find>nigeria</find>
@@ -62,6 +122,14 @@
       <find>united s</find>
       <find>england</find>
       <find>united</find>
+      <find>indonesia</find>
+      <find>UK</find>
+      <find>found</find>
+      <find>London</find>
+      <find>visak</find>
+      <find>london</find>
+      <find>canada</find>
+      <find>india</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -72,13 +140,14 @@
       <list>
         <option value="$PROJECT_DIR$/testing.py" />
         <option value="$PROJECT_DIR$/tweet_mining.py" />
-        <option value="$PROJECT_DIR$/countries.json" />
         <option value="$PROJECT_DIR$/cleaning_tweet.py" />
+        <option value="$PROJECT_DIR$/countries.json" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
@@ -87,22 +156,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Twitter-Mining-With-Tweepy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CleaningTBD" type="462c0819:PsiDirectoryNode" />
+              <item name="Twitter-Mining-With-Tweepy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CleaningTBD/CleaningTBD" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -117,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cleaning_tweet">
+  <component name="RunManager" selected="Python.test">
     <configuration name="cleaning_tweet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Twitter-Mining-With-Tweepy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,6 +200,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cleaning_tweet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Twitter-Mining-With-Tweepy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,6 +252,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.cleaning_tweet" />
         <item itemvalue="Python.tweet_mining" />
       </list>
@@ -182,13 +273,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.122023806" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.122023806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5546219" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.84033614" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -224,22 +316,37 @@
         <state relative-caret-position="-17502" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CleaningTBD/CleaningTBD/tryCleaningcarakter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-964" />
+    <entry file="file://$PROJECT_DIR$/../CleaningTBD/CleaningTBD/tryCleaningcarakter.py" />
+    <entry file="file://$PROJECT_DIR$/../CleaningTBD/CleaningTBD/data_nama_kota/readDataKOta.py" />
+    <entry file="file://$PROJECT_DIR$/../CleaningTBD/CleaningTBD/try16nokia.py" />
+    <entry file="file://$PROJECT_DIR$/City Lists/CITIES.TXT">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="65">
+          <caret line="85431" lean-forward="true" selection-start-line="85431" selection-end-line="85431" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CleaningTBD/CleaningTBD/data_nama_kota/readDataKOta.py">
+    <entry file="file://$PROJECT_DIR$/tweet_mining.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="322">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/countries.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="60209" column="17" lean-forward="true" selection-start-line="60209" selection-start-column="17" selection-end-line="60209" selection-end-column="17" />
+        <state relative-caret-position="144">
+          <caret line="72034" column="19" selection-start-line="72034" selection-start-column="19" selection-end-line="72034" selection-end-column="19" />
           <folding>
             <element signature="e#155#254#0" />
             <element signature="e#269#768#0" />
@@ -267,61 +374,28 @@
             <element signature="e#133201#136792#0" />
             <element signature="e#136808#137106#0" />
             <element signature="e#137122#137250#0" />
-            <element signature="e#175625#175751#0" />
-            <element signature="e#175764#177767#0" />
-            <element signature="e#177780#204913#0" />
-            <element signature="e#204929#206761#0" />
-            <element signature="e#206774#206852#0" />
-            <element signature="e#206870#207993#0" />
-            <element signature="e#208008#210285#0" />
-            <element signature="e#210297#210464#0" />
-            <element signature="e#210478#210890#0" />
-            <element signature="e#210912#227217#0" />
-            <element signature="e#227232#236228#0" />
-            <element signature="e#236254#236714#0" />
-            <element signature="e#236729#237915#0" />
-            <element signature="e#237928#238563#0" />
-            <element signature="e#238582#239149#0" />
-            <element signature="e#239164#240100#0" />
-            <element signature="e#240121#240253#0" />
-            <element signature="e#240268#247756#0" />
-            <element signature="e#247770#494913#0" />
-            <element signature="e#1049531#1049695#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CleaningTBD/CleaningTBD/try16nokia.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tweet_mining.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="87" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#1045704#1045812#0" />
+            <element signature="e#1045827#1049476#0" />
+            <element signature="e#1049504#1049668#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cleaning_tweet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-524">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="-1035">
+          <caret line="54" column="56" lean-forward="true" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#2044#2081#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

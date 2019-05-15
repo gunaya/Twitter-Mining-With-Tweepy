@@ -3,7 +3,7 @@ import json
 import re
 
 MONGO_HOST = 'mongodb://localhost/'
-MONGO_DB = 'testing'
+MONGO_DB = 'kurang'
 
 def get_json(collection_name):
     client = MongoClient(MONGO_HOST)
@@ -14,7 +14,7 @@ def get_json(collection_name):
 def save_json(collection_name):
     client = MongoClient(MONGO_HOST)
     db = client["hasil"]
-    collection = db[collection_name]
+    collection = db['yellowfever']
     return collection
 
 def main(collection_name):
@@ -23,7 +23,7 @@ def main(collection_name):
 
     data = get_json(collection_name)
     data_details = data.find()
-    col_name = collection_name.replace("#",'')
+    col_name = collection_name
     new_collection = save_json(col_name)
 
     tweet_count = 1
@@ -36,6 +36,7 @@ def main(collection_name):
         for x in range(len(locations)):
             locations[x] = locations[x].strip()
             locations[x] = locations[x].replace('.','')
+
             if locations[x].isalpha() == True:
                 locations[x], FLAG = location_filter(locations[x])
             else:
@@ -60,6 +61,7 @@ def main(collection_name):
         # save JSON data into new Collection on MongoDB
         data = {}
         data['tweet_id'] = i['id']
+        data['tweet_text'] = i['text']
         data['tweet_location'] = new_location
         data['created_at'] = i['created_at']
 
@@ -76,7 +78,7 @@ def location_filter(kota):
         data = json.load(f)
 
     # Inisialisasi Singkatan
-    US = ['usa', 'us', 'america', 'fl', 'nyc', 'dc', 'oh', 'tx', 'ma', 'mn', 'ny']
+    US = ['usa', 'us', 'america', 'fl', 'nyc', 'dc', 'oh', 'tx', 'ma', 'mn', 'ny', 'co']
     country = ''
 
     for countries in data:
@@ -109,10 +111,11 @@ def location_filter(kota):
     return country, FLAG
 
 if __name__ == "__main__":
-    # query = ['chikungunya', 'dengue', 'ebola', 'hiv', 'malaria', 'measles', 'mers', 'polio', 'rabies', 'tuberculosis', 'yellowfever', 'zika']
+    query = ['chikungunya',  'malaria', 'measles',
+             'mers', 'polio', 'rabies', 'yellowfever']
 
-    # for q in query:
-    #     main(q)
+    for q in query:
+        main(q)
     # location_filter()
 
-    main('yellowfever')
+    # main('yellowfever')

@@ -104,10 +104,6 @@ def location_filter(kota):
         elif kota.lower() is not None:
             FLAG = 1;
             country = kota
-                    # elif kota.lower() != '' and kota.lower() != x.lower():
-                    #     country = kota.lower()
-                    #     print("tessse")
-                    #     break
     return country, FLAG
 
 if __name__ == "__main__":
@@ -116,6 +112,3 @@ if __name__ == "__main__":
 
     for q in query:
         main(q)
-    # location_filter()
-
-    # main('yellowfever')
